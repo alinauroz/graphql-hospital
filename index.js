@@ -1,5 +1,5 @@
 const express = require("express");
-const graphQLHttp = require("express-graphql");
+const graphQLHttp = require("express-graphql-multimode");
 const schema = require("./schema/schema.js");
 const app = express();
 const cors = require('cors');
